@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+
+    text-align: center;
+    padding: 20px;
+}
+.contenedor-galeria h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+.galeria {
+    display: grid;
+
+    gap: 5px; 
+}
+.galeria div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+@media (min-width: 1024px) {
+}
+@media (min-width: 640px) {
+
+}
+@media (max-width: 639px) {
+}
